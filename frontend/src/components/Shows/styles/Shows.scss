@@ -1,0 +1,24 @@
+.movies{
+    .film{
+        height: auto;
+        width: auto;
+      }
+    .film-image{
+        width: 10rem;
+        height: 10rem;
+        margin-top: 1rem;
+    }
+}
+
+.location{
+    align-items: left;
+    margin-left:-90%;
+    margin-bottom: 2rem;
+    .formControl {
+        margin: 0.25rem;
+        min-width: 500;
+      }
+    .select-location{
+        width: 10rem
+    }
+}

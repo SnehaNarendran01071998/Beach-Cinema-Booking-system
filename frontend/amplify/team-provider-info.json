@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-frontend-dev-90352-authRole",
+      "UnauthRoleArn": "arn:aws:iam::261703426351:role/amplify-frontend-dev-90352-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::261703426351:role/amplify-frontend-dev-90352-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-frontend-dev-90352-deployment",
+      "UnauthRoleName": "amplify-frontend-dev-90352-unauthRole",
+      "StackName": "amplify-frontend-dev-90352",
+      "StackId": "arn:aws:cloudformation:eu-west-1:261703426351:stack/amplify-frontend-dev-90352/35dbe150-c28a-11eb-ad14-06d80796af69",
+      "AmplifyAppId": "d33z36yrq8fkzf"
+    },
+    "categories": {
+      "auth": {
+        "frontendb083af35": {}
+      },
+      "storage": {
+        "frontend33006f38": {
+          "bucketName": "cinemabookingfilmimages",
+          "region": "eu-west-1"
+        }
+      }
+    }
+  }
+}

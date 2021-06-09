@@ -31,7 +31,9 @@ jobs:
           distribution: 'adopt'
       - name: Build with Gradle
         run: ./gradlew build
+        working-directory: backend
       - name: Run tests
         run: ./gradlew test
+        working-directory: backend
         
       

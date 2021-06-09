@@ -11,10 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Change Directory
-        run: cd frontend
-      - name: Echo pwd
-        run: echo $(pwd)
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:

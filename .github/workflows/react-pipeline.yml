@@ -21,8 +21,11 @@ jobs:
           node-version: "14"
       - name: Install Packages
         run: npm install
+        working-directory: frontend
       - name: Build
         run: npm run build
+        working-directory: frontend
       - name: Test
         run: npm run test:coverage
+        working-directory: frontend
 

@@ -4,7 +4,7 @@ on:
     branches:
       - main
     paths:
-      - frontend/**
+      - [frontend/**,.github/workflows/react-pipeline.yml]
 jobs:
   lint:
     runs-on: ubuntu-latest

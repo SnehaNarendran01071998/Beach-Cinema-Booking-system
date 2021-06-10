@@ -1,2 +1,2 @@
-const baseURL = process.env.PORT ||'http://localhost:9090';
+const baseURL = 'http://localhost:9090'||process.env.PORT;
 export default baseURL;

@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT $JAVA_OPTS -jar build/libs/cinemaBooking-0.0.1-SNAPSHOT.jar -Dspring.datasource.url=${SPRING_DATASOURCE_URL}
+web: java -Dserver.port=$PORT $JAVA_OPTS -jar build/libs/cinemaBooking-0.0.1-SNAPSHOT.jar

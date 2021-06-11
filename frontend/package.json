@@ -7,8 +7,9 @@
     "test": "jest",
     "test:coverage": "jest --coverage",
     "start": "webpack serve --mode development",
-    "build:prod": "webpack --env production",
-    "serve:prod": "serve -s build"
+    "build": "webpack --config webpack.config.js",
+    "serve:prod": "serve -s build",
+    "postinstall": "npm run build"
   },
   "keywords": [
     "cinema-booking"

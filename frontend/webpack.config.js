@@ -8,7 +8,7 @@ module.exports = (env) => {
       filename: "main.js",
     },
     devServer: {
-      contentBase: ["./public"],
+      contentBase: ["./public/dist"],
       open: true,
       headers: {
         "Access-Control-Allow-Origin": "*",

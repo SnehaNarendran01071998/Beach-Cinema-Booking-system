@@ -1,2 +1,2 @@
-const baseURL = 'http://localhost:9090'||'https://cinema-booking-backend.herokuapp.com';
+const baseURL = 'https://cinema-booking-backend.herokuapp.com' || 'http://localhost:9090';
 export default baseURL;

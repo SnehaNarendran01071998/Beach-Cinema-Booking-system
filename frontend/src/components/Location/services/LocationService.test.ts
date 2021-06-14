@@ -4,7 +4,7 @@ import { LocationResponse } from "../model/LocationResponse";
 import getAllLocations from "./LocationService";
 describe("Location Service", () => {
   it("should get list of all locations", async () => {
-    const url = `${baseURL}/location/all`;
+    const url = `/location/all`;
     const respose: LocationResponse[] = [
       {
         id: 1,

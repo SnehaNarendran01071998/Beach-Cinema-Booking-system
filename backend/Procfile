@@ -1,2 +1,1 @@
 web: java -Dserver.port=$PORT $JAVA_OPTS -jar build/libs/cinemaBooking-0.0.1-SNAPSHOT.jar 
-# -Dspring.datasource.url=jdbc:postgresql://fsirhuialrzpgv:2b000edb705e2aa00fa3420a9ebb62096fac285de44b1e9e6cf8f445fe1bb1be@ec2-34-193-112-164.compute-1.amazonaws.com:5432/ddv19c6g2n4tp6

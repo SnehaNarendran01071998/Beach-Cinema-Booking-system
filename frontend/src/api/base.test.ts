@@ -27,6 +27,6 @@ describe("Base url", () => {
     const config = require("./base").default;
 
     //ASSERT
-    expect(config).toBe("https://cinema-booking-backend.herokuapp.com");
+    expect(config).toBe("cinema-booking-backend.herokuapp.com");
   });
 });

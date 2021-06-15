@@ -27,6 +27,6 @@ describe("Base url", () => {
     const config = require("./base").default;
 
     //ASSERT
-    expect(config).toBe("https://cors-anywhere.herokuapp.com/https://cinema-booking-backend.herokuapp.com");
+    expect(config).toBe("https://cryptic-ocean-50781.herokuapp.com/https://cinema-booking-backend.herokuapp.com");
   });
 });

@@ -1,4 +1,4 @@
-const proxy = "https://proxy-cinema-booking.herokuapp.com/";
+const proxy = "https://cors-anywhere.herokuapp.com/";
 const herokuapp = "https://cinema-booking-backend.herokuapp.com";
 const localhost = "http://localhost:9090";
 const baseURL =

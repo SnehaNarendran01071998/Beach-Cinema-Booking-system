@@ -12,7 +12,7 @@ export default async function getAllLocations() {
   const headerUrl =
     process.env.NODE_ENV === "production" ? `${herokuapp}` : localhost;
   const response = await axios.get<LocationResponse[]>(`${url}/location/all`, {
-    headers: { Origin: headerUrl },
+    headers: { Origin: headerUrl, "Access-Control-Allow-Origin:": "*"},
   });
   return response.data;
 }

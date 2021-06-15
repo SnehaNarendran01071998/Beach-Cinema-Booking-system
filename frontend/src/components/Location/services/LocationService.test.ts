@@ -18,7 +18,7 @@ describe("Location Service", () => {
 
     (axios.get as jest.Mock).mockResolvedValueOnce({ data: respose });
     var actual = await getAllLocations();
-    expect(axios.get).toHaveBeenCalledWith(url,{"headers": {"Origin": "http://localhost:9090"}});
+    expect(axios.get).toHaveBeenCalledWith(url,{"headers": {"Origin": "http://localhost:9090", "Access-Control-Allow-Origin:": "*"}});
     expect(actual).toBe(respose);
   });
 });

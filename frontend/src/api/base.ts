@@ -1,5 +1,6 @@
+const proxy = "https://proxy-cinema-booking.herokuapp.com/";
+const herokuapp = "https://cinema-booking-backend.herokuapp.com";
+const localhost = "http://localhost:9090";
 const baseURL =
-  process.env.NODE_ENV === "production"
-    ? "https://cinema-booking-backend.herokuapp.com"
-    : "http://localhost:9090";
+  process.env.NODE_ENV === "production" ? `${proxy}${herokuapp}` : localhost;
 export default baseURL;

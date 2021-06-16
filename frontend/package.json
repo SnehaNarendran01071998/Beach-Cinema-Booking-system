@@ -7,7 +7,7 @@
     "test": "jest",
     "test:coverage": "jest --coverage",
     "start": "nodemon --exec babel-node server.ts",
-    "build": "webpack --config webpack.config.js",
+    "build": "webpack --config webpack.config.js --mode production",
     "serve:prod": "serve -s build",
     "postinstall": "npm run build"
   },

@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@CrossOrigin(origins = {"http://localhost:3000", "https://cinema-booking-backend.herokuapp.com"})
+@CrossOrigin(origins = {"http://localhost:3000", "https://cinema-booking-frontend.herokuapp.com"})
 @RequestMapping("/films")
 public class FilmController {
     private FilmService filmService;
